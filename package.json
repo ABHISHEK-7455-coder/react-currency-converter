@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dropdown": "^0.2.0",
+    "react-dropdown": "^1.11.0"
+  }
+}

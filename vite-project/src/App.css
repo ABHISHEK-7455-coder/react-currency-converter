@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.container {
+  width: 45%;
+  margin: auto;
+  padding: 10px;
+  background: linear-gradient(135deg, rgb(72, 165, 241), rgb(243, 106, 106));
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.left-container, .right-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+input {
+  background: transparent;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  width: 100px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  background: transparent;
+  align-self: center;
+  font-weight: 600;
+}
