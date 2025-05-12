@@ -53,23 +53,20 @@ export default function App() {
           <input
             type='number'
             value={input}
-            onChange={(e) => setInput(e.target.value)}
             placeholder='Enter amount'
           />
           <Dropdown
             options={currencyOptions}
             value={from}
-            // onChange={(e) => setFrom(e.value)}
             placeholder='From'
           />
         </div>
 
         <div className='output-section'>
-          <input type='text' value={output} readOnly />
+          <input type='text' value={output} />
           <Dropdown
             options={currencyOptions}
             value={to}
-            // onChange={(e) => setTo(e.value)}
             placeholder='To'
           />
         </div>
