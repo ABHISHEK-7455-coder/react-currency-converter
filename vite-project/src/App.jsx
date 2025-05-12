@@ -52,12 +52,10 @@ export default function App() {
         <div className='input-section'>
           <input
             type='number'
-            value={input}
             placeholder='Enter amount'
           />
           <Dropdown
             options={currencyOptions}
-            value={from}
             placeholder='From'
           />
         </div>
@@ -66,7 +64,6 @@ export default function App() {
           <input type='text' value={output} />
           <Dropdown
             options={currencyOptions}
-            value={to}
             placeholder='To'
           />
         </div>
